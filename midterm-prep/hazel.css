@@ -1,0 +1,39 @@
+#headshot {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+#body {
+    font-family: arial, sans-serif;
+}
+
+#info {
+    width: 700px;
+    margin: auto;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    padding; 10px;
+    background-color: yellow;
+    width: 200px;
+    left: 0px;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+@media (min-width: 576px) {
+    #info {
+        width: 700px;
+    }
+}
